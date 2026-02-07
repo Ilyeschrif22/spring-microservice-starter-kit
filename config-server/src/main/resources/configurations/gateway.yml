@@ -4,6 +4,14 @@ server:
 spring:
   application:
     name: gateway
+
+  spring:
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: http://localhost:8080/realms/microservices-realm
+
   cloud:
     gateway:
       mvc:
@@ -19,4 +27,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     register-with-eureka: true
     fetch-registry: true
-
