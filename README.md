@@ -52,6 +52,8 @@ docker run -p 8080:8080 \
 
 <img width="1053" height="720" alt="Screenshot from 2026-02-07 10-47-23" src="https://github.com/user-attachments/assets/72427a11-eb43-42d6-a726-f154a6c8f36a" />
 
+<img width="1053" height="720" alt="image" src="https://github.com/user-attachments/assets/e6a3424f-3307-4311-a00e-993fa8585d02" />
+
 
 ## Configuration Files
 
