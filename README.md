@@ -50,6 +50,9 @@ docker run -p 8080:8080 \
 
 ---
 
+<img width="1053" height="720" alt="Screenshot from 2026-02-07 10-47-23" src="https://github.com/user-attachments/assets/72427a11-eb43-42d6-a726-f154a6c8f36a" />
+
+
 ## Configuration Files
 
 All configuration files are stored in the Config Server under `/configurations/`:
@@ -74,4 +77,3 @@ curl -X POST http://localhost:8090/users \
 
 ---
 
-If you want, I can also help you add the Keycloak setup details or any other Docker services you want.
