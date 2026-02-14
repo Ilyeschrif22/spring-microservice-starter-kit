@@ -40,6 +40,7 @@ This project requires a Keycloak server for authentication. You can run Keycloak
 docker run -p 8080:8080 \
   -e KEYCLOAK_ADMIN=admin \
   -e KEYCLOAK_ADMIN_PASSWORD=admin \
+  -v keycloak_data:/opt/keycloak/data \
   quay.io/keycloak/keycloak:24.0.3 start-dev
 ```
 
